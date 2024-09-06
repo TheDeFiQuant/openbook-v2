@@ -18,11 +18,16 @@ async fn main() -> Result<()> {
         vault_balances.push(balance);
     }
 
-    // Print the vault balances
+    // Print table header
+    println!("{:<45} {:<20} {:<20}", "Market Pubkey", "Base Vault Balance", "Quote Vault Balance");
+    println!("{}", "-".repeat(85));
+
+    // Print the vault balances in a table format
     for (market, base_balance, quote_balance) in vault_balances {
-        println!("Market Pubkey: {}", market.market_authority);
-        println!("Base Vault Balance: {}", base_balance);
-        println!("Quote Vault Balance: {}", quote_balance);
+        println!(
+            "{:<45} {:<20} {:<20}",
+            market.market_authority, base_balance, quote_balance
+        );
     }
 
     Ok(())

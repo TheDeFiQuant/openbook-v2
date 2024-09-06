@@ -50,5 +50,13 @@ jupiter-amm-interface = "0.1.1"
 solana-program-test = { workspace = true }
 
 [[bin]]
-name = "script"
-path = "src/scripts/all_markets_deposit.rs"
+name = "all_deposits"
+path = "src/scripts/all_market_deposist.rs"
+
+[[bin]]
+name = "all_vaults"
+path = "src/scripts/all_vault_addresses.rs"
+
+[[bin]]
+name = "all_markets"
+path = "src/scripts/all_markets.rs"
