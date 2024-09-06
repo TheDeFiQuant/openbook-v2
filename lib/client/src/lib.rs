@@ -16,3 +16,6 @@ mod gpa;
 mod jup;
 pub mod snapshot_source;
 mod util;
+pub mod client_init;
+pub mod market_fetch;
+pub mod vault_balances;

@@ -51,4 +51,4 @@ solana-program-test = { workspace = true }
 
 [[bin]]
 name = "script"
-path = "scripts/all_markets_deposit.rs"
+path = "src/scripts/all_markets_deposit.rs"
