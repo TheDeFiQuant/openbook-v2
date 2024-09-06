@@ -48,3 +48,7 @@ jupiter-amm-interface = "0.1.1"
 
 [dev-dependencies]
 solana-program-test = { workspace = true }
+
+[[bin]]
+name = "script"
+path = "scripts/all_markets_deposit.rs"
