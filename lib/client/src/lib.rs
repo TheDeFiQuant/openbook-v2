@@ -19,3 +19,6 @@ mod util;
 pub mod client_init;
 pub mod market_fetch;
 pub mod vault_balances;
+pub mod get_vault_mint;
+pub mod event_heap_reader;
+pub mod trade_fetcher;

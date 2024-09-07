@@ -60,3 +60,15 @@ path = "src/scripts/all_vault_addresses.rs"
 [[bin]]
 name = "all_markets"
 path = "src/scripts/all_markets.rs"
+
+[[bin]]
+name = "trades"
+path = "src/scripts/trades.rs"
+
+[[bin]]
+name = "token_mint"
+path = "src/scripts/all_token_mints.rs"
+
+[[bin]]
+name = "event_heap"
+path = "src/scripts/fetch_raw_event_heap.rs"
