@@ -46,6 +46,8 @@ thiserror = "1.0.31"
 tokio = {version = "1", features = ["full"]}
 tokio-stream = {version = "0.1.9"}
 jupiter-amm-interface = "0.1.1"
+solana-transaction-status = "1.17.13"
+flexi_logger = "0.22"
 
 [dev-dependencies]
 solana-program-test = { workspace = true }
@@ -77,3 +79,7 @@ path = "src/scripts/all_token_mints.rs"
 [[bin]]
 name = "event_heap"
 path = "src/scripts/fetch_raw_event_heap.rs"
+
+[[bin]]
+name = "all_logs"
+path = "src/scripts/all_logs.rs"

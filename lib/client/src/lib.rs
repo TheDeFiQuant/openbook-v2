@@ -22,3 +22,4 @@ pub mod vault_balances;
 pub mod get_vault_mint;
 pub mod event_heap_reader;
 pub mod trade_fetcher;
+pub mod get_event_log;
