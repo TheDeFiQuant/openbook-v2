@@ -42,12 +42,12 @@ cargo run --bin <binary_name>
 
 ## Setting Environment Variables
 
-Before running any of the binaries, you can set the following environment variables:
+Some binaries require environment variables to be set, such as `MARKET_PUBKEY` for specifying a market and `RPC_URL` to configure the Solana RPC URL.
 
 - `MARKET_PUBKEY`: The public key of the market you want to interact with.
 - `RPC_URL`: The URL of the Solana RPC node you want to connect to.
 
-You can set these variables by running the following commands in your terminal:
+To set these environment variables, you can use the following commands before running a binary:
 
 ```bash
 export MARKET_PUBKEY=<your_market_pubkey>
