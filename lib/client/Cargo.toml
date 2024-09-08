@@ -28,6 +28,7 @@ itertools = "0.10.3"
 jsonrpc-core = "18.0.0"
 jsonrpc-core-client = {version = "18.0.0", features = ["ws", "http", "tls"]}
 log = "0.4"
+env_logger = "0.10"
 openbook-v2 = {path = "../../programs/openbook-v2"}
 pyth-sdk-solana = {workspace = true}
 reqwest = "0.11.11"
@@ -51,11 +52,15 @@ solana-program-test = { workspace = true }
 
 [[bin]]
 name = "all_deposits"
-path = "src/scripts/all_market_deposist.rs"
+path = "src/scripts/all_market_deposits.rs"
 
 [[bin]]
 name = "all_vaults"
 path = "src/scripts/all_vault_addresses.rs"
+
+[[bin]]
+name = "all_markets_data"
+path = "src/scripts/all_markets_data.rs"
 
 [[bin]]
 name = "all_markets"

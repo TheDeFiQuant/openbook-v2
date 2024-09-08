@@ -17,7 +17,7 @@ pub async fn fetch_all_token_mints(client: &RpcClient) -> Result<Vec<(Pubkey, Pu
 
     let token_mints: Vec<(Pubkey, Pubkey)> = markets
         .into_iter()
-        .map(|market| (market.base_mint, market.quote_mint))
+        .map(|market| (market.market_data.base_mint, market.market_data.quote_mint))
         .collect();
 
     Ok(token_mints)
