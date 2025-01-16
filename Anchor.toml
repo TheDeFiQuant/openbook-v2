@@ -2,7 +2,7 @@
 seeds = false
 skip-lint = false
 [programs.localnet]
-openbook_v2 = "opnbkNkqux64GppQhwbyEVc3axhssFhVYuwar8rDHCu"
+openbook_v2 = "opnb2LAfJYbRMAHHvqjCwQxanZn7ReEHp1k81EohpZb"
 
 [registry]
 url = "https://api.apr.dev"
